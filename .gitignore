@@ -12,3 +12,17 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+# No log files
+*.log
+
+#IntelliJ stuff
+*.iml
+
+# Visual Studio Code build directory
+bin
+out
+/.idea/
+
+# Ignore Gradle build output directory
+build
